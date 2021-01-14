@@ -1,4 +1,5 @@
-use db_servico_rh;
+create database db_notaAluno;
+use db_notaAluno;
 create table Alunos(
 numero bigint(5) auto_increment,
 nome varchar(250) not null,
