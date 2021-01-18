@@ -1,4 +1,5 @@
-use db_servico_rh;
+create database db_ecommerce;
+use db_ecommerce;
 create table ecommerce(
 id bigint(5) auto_increment,
 nome varchar(255) not null,
